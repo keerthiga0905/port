@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-cherry: #870A1E;
+    --color-dark-cherry: #38050E;
+    --color-plum: #870A1E;
+    --color-dark-plum: #38050E;
+    --color-deep-burgundy: #540915;
+    --color-warm-taupe: #B8999E;
+    --color-light-taupe: #E2D1D4;
+    --color-cream: #FFF5F6;
+    --color-soft-ivory: #FFFBFB;
+    --color-muted-rose: #E2526E;
+    --color-body-text: #36161B;
+    --color-subtle-borders: #E5CBD0;
+    --color-cherry-crimson: #C9183B;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-body-text);
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom subtle luxury scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFF5F6;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E5CBD0;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #870A1E;
+  }
+}
+
+/* Subtle editorial paper grain */
+.grain-overlay {
+  background-image: radial-gradient(rgba(135, 10, 30, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* High contrast editorial serif headings */
+.font-editorial-heading {
+  font-family: 'Bodoni Moda', 'Cormorant Garamond', serif;
+  letter-spacing: -0.02em;
+}
+
+/* Luxury decorative arch */
+.editorial-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+/* Thin editorial divider with cross/plus center */
+.editorial-divider {
+  position: relative;
+  height: 1px;
+  background-color: #E5CBD0;
+  width: 100%;
+}
+
+/* Delicate shine effect on hover */
+.luxury-hover-card {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.luxury-hover-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 25px 50px -12px rgba(56, 5, 14, 0.2);
+}
+
+/* Custom 3D canvas container */
+.canvas-container {
+  pointer-events: none;
+}
+.canvas-container canvas {
+  pointer-events: auto;
+}

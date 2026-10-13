@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#351923" />
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#B5A397" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="50" y="58" font-family="'Bodoni Moda', 'Playfair Display', serif" font-size="36" font-style="italic" font-weight="600" fill="#F7F0E6" text-anchor="middle" letter-spacing="2">KM</text>
+  <circle cx="50" cy="74" r="2" fill="#C5A059" />
+</svg>

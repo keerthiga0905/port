@@ -1,0 +1,52 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Title (Keerthiga M - Software Systems Resume)
+   /Author (Keerthiga M)
+   /Creator (Editorial Portfolio System) >>
+endobj
+2 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 6 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 285 >>
+stream
+BT
+/F1 24 Tf
+50 720 Td
+(KEERTHIGA M) Tj
+/F1 12 Tf
+0 -25 Td
+(M.Sc. Software Systems - Coimbatore Institute of Technology) Tj
+0 -20 Td
+(Email: keerthiga.m.cit@gmail.com | Coimbatore, Tamil Nadu, India) Tj
+0 -30 Td
+(Technical Skills: Python, Java, C, JavaScript, TypeScript, React, FastAPI, SQL, Git) Tj
+0 -25 Td
+(Leadership: Google Developer Groups on Campus - CIT Outreach Lead) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000140 00000 n 
+0000000189 00000 n 
+0000000248 00000 n 
+0000000366 00000 n 
+0000000703 00000 n 
+trailer
+<< /Size 7 /Root 2 0 R >>
+startxref
+774
+%%EOF
